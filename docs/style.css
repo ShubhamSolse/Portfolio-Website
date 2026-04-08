@@ -9,6 +9,7 @@ body {
     background-color: #09090b;
     color: #fafafa;
     overflow-x: hidden;
+    position: relative;
 }
 
 .hero {
@@ -18,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    position: relative;
 }
 
 .hero-title {
@@ -30,6 +32,8 @@ body {
     background-clip: text;
     margin-bottom: 4rem;
     animation: fadeIn 1s ease-out;
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -42,6 +46,7 @@ body {
     overflow: hidden;
     position: relative;
     padding: 2rem 0;
+    z-index: 1;
 }
 
 .marquee-content {
