@@ -206,19 +206,13 @@ body {
     justify-content: center;
 }
 
-.image-placeholder {
+.about-image img {
     width: 100%;
     max-width: 400px;
     aspect-ratio: 3/4;
-    background: rgba(24, 24, 27, 0.6);
-    backdrop-filter: blur(10px);
+    object-fit: cover;
     border: 1px solid rgba(168, 85, 247, 0.2);
     border-radius: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    color: #71717a;
 }
 
 footer {
